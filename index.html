@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta Cep</title>
+</head>
+<body>
+    
+    <div class="divInput">
+        <label for="inputCep">Cep</label><br>
+        <input type="text" name="inputCep" class="inputCep" id="inputCep" placeholder="Digite o CEP para consulta">
+        <input type="button" value="Consultar" class="btnConsulta" onclick="consultarCep()">
+    </div>
+
+    <div class="container" id="container">
+
+        <div class="divInputRead">
+            <label>Cep</label><br>
+            <input type="text" id="cep" class="inputRead" readonly>
+        </div>
+
+        <div class="divInputRead">
+            <label>Logradouro</label><br>
+            <input type="text" id="logradouro" class="inputRead" readonly>
+        </div>
+
+        <div class="divInputRead">
+            <label>Complemento</label><br>
+            <input type="text" id="complemento" class="inputRead" readonly>
+        </div>
+
+        <div class="divInputRead">
+            <label>Bairro</label><br>
+            <input type="text" id="bairro" class="inputRead" readonly>
+        </div>
+
+        <div class="divInputRead">
+            <label>Cidade</label><br>
+            <input type="text" id="cidade" class="inputRead" readonly>
+        </div>
+
+        <div class="divInputRead">
+            <label>UF</label><br>
+            <input type="text" id="uf" class="inputRead" readonly>
+        </div>
+
+        <div class="divInputRead">
+            <label>IBGE</label><br>
+            <input type="text" id="ibge" class="inputRead" readonly>
+        </div>
+
+    </div>
+
+    <br>
+    <input type="button" value="Salvar" onclick="salvarConsulta()" class="btnSalvar">
+    <br><br>
+
+    <table id="tabela" class="tabela">
+        <tr>
+            <th>Cep</th>
+            <th>Logradouro</th>
+            <th>Complemento</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+            <th>UF</th>
+            <th>IBGE</th>
+            <th>Ação</th>
+        </tr>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>

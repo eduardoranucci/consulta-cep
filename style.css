@@ -1,0 +1,100 @@
+body {
+    background:  #111111;
+    color: white;
+    text-align: center;
+}
+
+.divInput {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btnConsulta {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 35px;
+}
+
+.btnConsulta:hover {
+    background-color: #d3dcdf;
+}
+
+.inputCep {
+    padding: 2px;
+    width: 10%;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.container {
+    border: 1px solid #5c677d;
+    border-radius: 10px;
+    padding: 10px;
+    columns: 2;
+}
+
+.divInputRead {
+    margin: 10px;
+}
+
+.inputRead {
+    padding: 2px;
+    width: 50%;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btnSalvar {
+    font-size: 20px;
+    background-color: #118ab2;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    width: 10%;
+}
+
+.btnSalvar:hover {
+    background-color: #1499c6;
+}
+
+.tabela tr:nth-child(even){background-color: #0000006e;}
+
+.tabela tr:hover {background-color: #1a1a1a;}
+
+.tabela {
+    width: 100%;
+    padding: 8px;
+}
+
+.tabela tr, .tabela td {
+    text-align: center;
+    border: 1px solid #5c677d;
+    padding: 8px;
+}
+
+.tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #7b2cbf;
+    color: white;
+}
+
+.btnDeletar {
+    border: 0;
+    background-color: #bf0603;
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    height: 100%;
+}
+
+.btnDeletar:hover {
+    background-color: red;
+}
